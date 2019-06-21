@@ -1,0 +1,78 @@
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+#backg{
+    background-color: rgb(43, 68, 114);
+    margin-top: 20px;
+    padding-top: 5px;    
+}
+
+
+.atividadesContainerBack{ 
+    background-color: rgb(43, 68, 114);   
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.atividadesContainerBack a{
+    text-decoration: none !important;
+    color: white;
+    font-size: 1.2em
+}
+h2{
+    margin-top: 10px;
+    padding-top: 10px;    
+    margin-bottom: 10;
+}
+
+.atividadesContainer a{    
+    color: #e1e1e1ff;
+}
+
+.act{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    opacity: 1;
+    ;
+}
+.act:hover{
+    opacity: 0.8;
+}
+.act img{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.act img:hover{    
+    animation: bounce 1s;
+}
+
+
+@media (max-width: 600px){
+  .act img{
+        width: 50px;
+        height: 50px;
+   }
+   .act{
+       max-width: 90px;
+   }
+}

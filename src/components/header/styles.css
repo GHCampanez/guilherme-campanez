@@ -1,0 +1,62 @@
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+.header{
+    background-color:black;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;    
+}
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    justify-content: center;
+    
+}
+
+#navBar li{
+    list-style: none;
+    background-color:rgb(43, 68, 114);
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 20%;  
+   
+}
+
+#navBar li:hover{   
+    animation: bounce 1s;
+    }
+
+#navBar li a{    
+    text-decoration: none;
+    color: #e1e1e1ff;
+}
+
+@media screen and (max-width: 600px) {
+    #navBar{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+    }
+}

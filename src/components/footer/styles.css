@@ -1,0 +1,46 @@
+#footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px 0 5px;
+    text-align: center;
+}
+
+#social{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+
+#social p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#social img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+#social ul{
+    text-align: center;
+}
+
+#social ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+@media (max-width: 720px){
+    #social ul{
+        width: 160px;
+    }
+    
+}

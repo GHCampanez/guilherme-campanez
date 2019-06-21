@@ -1,0 +1,80 @@
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+
+
+form{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width:400px;   
+}
+
+#buttonSubmit{
+    font-weight: bold;    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(43, 68, 114);
+    border: none;
+    border-radius: 50px;
+    opacity: 0.9
+}
+#buttonSubmit:hover{
+    opacity: 1;
+    cursor: pointer;
+    animation: bounce 1s;
+}
+#buttonSubmit:focus{
+    outline-style: none;
+}
+
+input{
+    width: 100%;
+    max-width: 600px;
+    background-color:  rgb(43, 68, 114);
+    border: 0;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 16px;
+}
+input:focus{
+    outline-style: none;
+    opacity: 0.8;
+}
+textarea{
+    width: 100%;
+    background-color:  rgb(43, 68, 114);
+    border: 0;
+    margin: 10px;
+    border-radius: 5px;
+    color: #FFF;  
+    font-size: 16px;
+}
+textarea:focus{
+    outline-style: none;
+    opacity: 0.8;
+}

@@ -1,0 +1,25 @@
+#back{
+    background-color: rgb(43, 68, 114);
+    margin-top: 30px;
+    padding-top: 5px;
+
+}
+
+#habilities{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    background-color:rgb(43, 68, 114);
+}
+
+#habilities li{    
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+    margin: 20px;    
+}
+
+#habilities li:hover{
+    opacity: 0.3;
+}

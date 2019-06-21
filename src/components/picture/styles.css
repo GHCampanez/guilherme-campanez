@@ -1,0 +1,64 @@
+img#mainPhoto{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+#indexAnchor p{
+    margin-left: 5px;
+    margin-right: 5px;    
+}
+
+#perfil{
+    margin: 0 5em;
+    padding: 6em 0 3em 0;
+    display: flex;    
+}
+
+#perfil h4{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+#perfil h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+#detalhes{
+    
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgb(43, 68, 114);
+    
+}
+
+
+#detalhes ul{
+    margin-left: 15px;
+}
+
+
+
+@media (max-width: 720px){
+    #perfil{
+        padding: 3em 0;
+        margin: 0 20px;
+        flex-wrap: wrap;
+    }  
+
+    #detalhes{
+        margin-top: 30px;
+        margin-left: 0 !important;
+    }
+    
+}

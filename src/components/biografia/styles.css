@@ -1,0 +1,21 @@
+
+
+.biografiaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(43, 68, 114);
+    width: 100%;
+}
+.textoContainer{
+    width: 700px;
+    margin: 10px;
+    background-color: #1d1d1dff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px
+}
+.textContainer p{
+    text-align: justify;
+}
