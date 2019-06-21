@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69ca2857.chunk.css",
+    "main.js": "/static/js/main.97a900d7.chunk.js",
+    "main.js.map": "/static/js/main.97a900d7.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.5fdfb831.chunk.js": "/static/js/2.5fdfb831.chunk.js",
+    "static/js/2.5fdfb831.chunk.js.map": "/static/js/2.5fdfb831.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e12d19e57342e772533367397b77fac4.js": "/precache-manifest.e12d19e57342e772533367397b77fac4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.69ca2857.chunk.css.map": "/static/css/main.69ca2857.chunk.css.map",
+    "static/media/Guilherme.pdf": "/static/media/Guilherme.ed9fc61b.pdf",
+    "static/media/api.jpg": "/static/media/api.43129a8e.jpg",
+    "static/media/arquitetura.jpeg": "/static/media/arquitetura.2eb27cfb.jpeg",
+    "static/media/foto.jpg": "/static/media/foto.2ceca4e6.jpg",
+    "static/media/ia.jpg": "/static/media/ia.1bc9b3eb.jpg",
+    "static/media/spotify.jpg": "/static/media/spotify.25cc64da.jpg",
+    "static/media/whats.png": "/static/media/whats.39a06450.png"
+  }
+}
